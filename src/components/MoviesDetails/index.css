@@ -1,0 +1,27 @@
+.list-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    width: 400px;
+    margin: 8px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.title-heading {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}

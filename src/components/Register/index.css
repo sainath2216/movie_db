@@ -1,0 +1,32 @@
+/* Register.css */
+.register-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.message.success {
+    color: green;
+}
+.message.error {
+    color: red;
+}
